@@ -13,7 +13,7 @@ const {readDbSync} = require('./database')
 
 const dbPath = './combat_fiction34.db'
 
-const port = 3000
+const port = 80
 
 app.get('/', (req, res) => {
     try {
